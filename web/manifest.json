@@ -1,0 +1,21 @@
+{
+    "name": "DataSee Extension",
+    "description": "a chrome extension for DataSee website t",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/t.png"
+    },
+    "manifest_version": 3,
+    "permissions": [
+        "geolocation",
+        "notifications",
+        "camera",
+        "microphone",
+        "https://*/*",
+        "http://*/*"
+    ]
+}
